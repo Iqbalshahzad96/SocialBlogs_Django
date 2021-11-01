@@ -7,7 +7,7 @@
 2.  # Created models for the App
     Used django.utils timezone to get the current time,
     used reverse from django.urls,
-    used TextField,CharField,DateTimeField,BooleanField from django.db.models.fields,
+    used TextField, CharField, DateTimeField, BooleanField from django.db.models.fields,
     created model 'Post' to save the posts of the site in database,
     created publish and approve_comment methods for Post Model,
     created model Comment with forienkey relation ship with post,
